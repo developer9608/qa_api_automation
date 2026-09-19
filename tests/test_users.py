@@ -162,4 +162,3 @@ def test_create_user_response(api_client, user_data):
     assert "id" in create_user 
     assert create_user["name"] == user_data["name"]
     assert create_user["email"] == user_data["email"]
-    assert 1 == 2
