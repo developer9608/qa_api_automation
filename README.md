@@ -1,1 +1,2 @@
-
+# QA_Automation Project 
+API 테스트 자동화 학습 프로젝트
