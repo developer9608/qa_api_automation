@@ -23,7 +23,7 @@ jobs:
         run: echo $TEST_ENV
 
       - name: Run tests
-        run: python -m pytest --junitxml=test-results.xml
+        run: python -m pytest --junitxml=test-results.xml --maxfail=1
 
       - name: Upload test results
         if: always()

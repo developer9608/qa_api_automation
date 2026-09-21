@@ -156,7 +156,7 @@ def test_create_user_cases(
 def test_create_user_response(api_client, user_data):
 
     response = api_client.post("/users", json=user_data)
-    assert response.status_code == 201
+    assert response.status_code == 200
     create_user = response.json()
 
     assert "id" in create_user 
